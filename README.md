@@ -1,11 +1,16 @@
-# Meu Primeiro Projeto
-Este é meu primeiro projeto usando Git e GitHub.
+# Minha Jornada em Programação
+Este repositório foi criado para documentar meu processo de aprendizado em programação e uso do GitHub.
 
-## Tecnologias
-- Python
+## Objetivo
+Desenvolver habilidades práticas e acompanhar minha evolução na área de tecnologia.
 
-## O que faz
-Eu so Estudante do Ceub-Taguatinga faço Engenharia de Software
+## Conteúdo
+- Exercícios com as Materias
+- Testes de código
+- Pequenos projetos
+
+## Observação
+Estou em fase inicial de aprendizado e este repositório reflete meu progresso ao longo do tempo.
 
 ## Autor
 Felipe Roosevelt Duarte
