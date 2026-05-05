@@ -14,3 +14,10 @@ Estou em fase inicial de aprendizado e este repositório reflete meu progresso a
 
 ## Autor
 Felipe Roosevelt Duarte
+## Projetos
+
+### 🐍 Python
+- Primeiro código simples exibindo mensagem
+
+### 🧮 Portugol
+- Calculadora com múltiplas operações (adição, subtração, multiplicação e divisão)
