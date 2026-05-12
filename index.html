@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Felipe Roosevelt | Portfólio Profissional</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.7;
+    }
+
+    header {
+      background:
+        linear-gradient(rgba(15, 23, 42, 0.88),
+          rgba(15, 23, 42, 0.95)),
+        url("https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop");
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      padding: 90px 20px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    header img {
+      width: 170px;
+      height: 170px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #38bdf8;
+      margin-bottom: 20px;
+      box-shadow: 0 0 30px rgba(56, 189, 248, 0.3);
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+      color: white;
+    }
+
+    header h2 {
+      font-size: 20px;
+      font-weight: 400;
+      color: #38bdf8;
+      margin-bottom: 20px;
+    }
+
+    header p {
+      max-width: 850px;
+      margin: auto;
+      color: #cbd5e1;
+      font-size: 17px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    section {
+      margin-bottom: 70px;
+    }
+
+    .titulo {
+      font-size: 32px;
+      margin-bottom: 25px;
+      color: white;
+      position: relative;
+    }
+
+    .titulo::after {
+      content: "";
+      width: 70px;
+      height: 4px;
+      background: #38bdf8;
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      border-radius: 10px;
+    }
+
+    .sobre {
+      background: #111c34;
+      padding: 35px;
+      border-radius: 18px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .sobre p {
+      color: #cbd5e1;
+      margin-bottom: 18px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    .skill {
+      background: #1e293b;
+      padding: 10px 18px;
+      border-radius: 50px;
+      color: #38bdf8;
+      border: 1px solid rgba(56, 189, 248, 0.2);
+      font-size: 14px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: #111c34;
+      border-radius: 18px;
+      overflow: hidden;
+      transition: 0.3s;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      border-color: rgba(56, 189, 248, 0.3);
+    }
+
+    .card img {
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+    }
+
+    .conteudo {
+      padding: 25px;
+    }
+
+    .conteudo h3 {
+      font-size: 24px;
+      margin-bottom: 15px;
+      color: white;
+    }
+
+    .conteudo p {
+      color: #cbd5e1;
+      margin-bottom: 15px;
+      font-size: 15px;
+    }
+
+    .info {
+      margin-top: 15px;
+      padding-top: 15px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .info span {
+      display: block;
+      margin-bottom: 8px;
+      color: #94a3b8;
+      font-size: 14px;
+    }
+
+    .contato {
+      background: #111c34;
+      padding: 40px;
+      border-radius: 18px;
+      text-align: center;
+    }
+
+    .contato p {
+      margin-bottom: 15px;
+      color: #cbd5e1;
+    }
+
+    .contato a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #020617;
+      color: #94a3b8;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    @media(max-width:768px) {
+      header h1 {
+        font-size: 30px;
+      }
+
+      .titulo {
+        font-size: 26px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+
+    <img src="perfil.png" alt="Felipe Roosevelt">
+
+    <h1>Felipe Roosevelt Duarte</h1>
+
+    <h2>Estudante de Engenharia de Software</h2>
+
+    <p>
+      Me chamo Felipe Roosevelt Duarte, tenho 18 anos e nasci em Brasília.
+      Concluí o Ensino Médio em 2025 na escola CED 04 de Taguatinga e atualmente
+      curso Engenharia de Software no UniCEUB Taguatinga.
+      Estou desenvolvendo meus conhecimentos em tecnologia, programação
+      e desenvolvimento de sistemas, sempre buscando aprender novas habilidades
+      e evoluir profissionalmente.
+    </p>
+
+  </header>
+
+  <main class="container">
+
+    <section>
+
+      <h2 class="titulo">Sobre Mim</h2>
+
+      <div class="sobre">
+
+        <p>
+          Tenho grande interesse nas áreas de desenvolvimento de sistemas,
+          jogos digitais e tecnologia. Além da programação, também gosto de música
+          e estudo piano, atividade que contribui para minha criatividade,
+          concentração e disciplina.
+        </p>
+
+        <p>
+          Também estudo inglês, o que me ajuda a ampliar meus conhecimentos
+          na área de tecnologia e acessar conteúdos internacionais voltados
+          para programação e desenvolvimento de software.
+        </p>
+
+        <p>
+          Sou uma pessoa dedicada, organizada e com facilidade em aprender.
+          Estou em constante evolução acadêmica e profissional,
+          buscando oportunidades para aplicar meus conhecimentos
+          e crescer na área de Engenharia de Software.
+        </p>
+
+        <div class="skills">
+
+          <div class="skill">HTML</div>
+          <div class="skill">CSS</div>
+          <div class="skill">Lógica de Programação</div>
+          <div class="skill">GitHub</div>
+          <div class="skill">Inglês Intermediário</div>
+          <div class="skill">Criatividade</div>
+          <div class="skill">Organização</div>
+          <div class="skill">Piano</div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section>
+
+      <h2 class="titulo">Projetos Acadêmicos</h2>
+
+      <div class="grid">
+
+        <!-- Projeto 1 -->
+        <div class="card">
+
+          <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1200&auto=format&fit=crop"
+            alt="Frutas do Cerrado">
+
+          <div class="conteudo">
+
+            <h3>Desidratação Artesanal das Frutas do Cerrado</h3>
+
+            <p>
+              Projeto desenvolvido para a Feira de Ciências de 2024,
+              voltado ao estudo das frutas típicas do Cerrado brasileiro
+              e dos processos artesanais de desidratação utilizados
+              para conservação alimentar.
+            </p>
+
+            <p>
+              Durante o trabalho, foram analisadas as características
+              nutricionais das frutas, sua importância ambiental
+              e os benefícios da conservação artesanal para redução
+              do desperdício de alimentos.
+            </p>
+
+            <div class="info">
+              <span>• Feira de Ciências — 2024</span>
+              <span>• Pesquisa científica e apresentação acadêmica</span>
+              <span>• Tema: Meio ambiente e alimentação sustentável</span>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Projeto 2 -->
+        <div class="card">
+
+          <img src="https://images.unsplash.com/photo-1548839140-29a749e1cf4d?q=80&w=1200&auto=format&fit=crop"
+            alt="Sustentabilidade da Água">
+
+          <div class="conteudo">
+
+            <h3>Sustentabilidade da Água na Escola</h3>
+
+            <p>
+              Projeto acadêmico desenvolvido em 2025 com foco
+              na conscientização sobre o desperdício de água
+              no ambiente escolar.
+            </p>
+
+            <p>
+              A pesquisa utilizou observações e coleta de dados
+              para identificar problemas relacionados ao uso inadequado
+              da água e propor soluções sustentáveis voltadas
+              para preservação ambiental.
+            </p>
+
+            <div class="info">
+              <span>• Feira de Ciências — 2025</span>
+              <span>• Pesquisa de campo e análise de dados</span>
+              <span>• Tema: Sustentabilidade ambiental</span>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Projeto 3 -->
+        <div class="card">
+
+          <img src="https://images.unsplash.com/photo-1503095396549-807759245b35?q=80&w=1200&auto=format&fit=crop"
+            alt="Peça teatral">
+
+          <div class="conteudo">
+
+            <h3>Eles Não Usam Black-Tie</h3>
+
+            <p>
+              Participação em atividade teatral inspirada
+              na obra “Eles Não Usam Black-Tie”,
+              abordando conflitos familiares,
+              responsabilidade social e diferenças de opinião.
+            </p>
+
+            <p>
+              O projeto ajudou no desenvolvimento
+              da comunicação, expressão artística,
+              trabalho em equipe e interpretação.
+            </p>
+
+            <div class="info">
+              <span>• Projeto teatral — 2025</span>
+              <span>• Desenvolvimento artístico e comunicação</span>
+              <span>• Tema: Relações sociais e familiares</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section>
+
+      <h2 class="titulo">Objetivo Profissional</h2>
+
+      <div class="sobre">
+
+        <p>
+          Busco uma oportunidade de estágio na área de Engenharia de Software,
+          com foco em desenvolvimento de sistemas ou jogos,
+          onde eu possa aplicar meus conhecimentos,
+          aprender na prática e evoluir profissionalmente.
+        </p>
+
+      </div>
+
+    </section>
+
+    <section>
+
+      <h2 class="titulo">Contato</h2>
+
+      <div class="contato">
+
+        <p>
+          📧 Email:
+          <br>
+          feliperoosevelt551@gmail.com
+        </p>
+
+        <p>
+          💻 GitHub:
+          <br>
+          github.com/fe-lip-pe
+        </p>
+
+        <p>
+          💼 LinkedIn:
+          <br>
+          linkedin.com/in/felipe-roosevelt-275bb9403
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 Felipe Roosevelt Duarte • Portfólio Profissional
+  </footer>
+
+</body>
+
+</html>
