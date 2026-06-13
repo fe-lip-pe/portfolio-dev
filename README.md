@@ -1,40 +1,79 @@
-# 💻 Minha Jornada em Programação
+# 🎮 Portfólio de Games e Animação
 
-> Repositório criado para apresentar meus projetos acadêmicos e pessoais, demonstrando minha evolução, aprendizado e desenvolvimento na área da tecnologia.
+> Repositório dedicado à minha jornada de aprendizado, desenvolvimento e criação na área de **Games, Animação e Tecnologia**.
+
 ---
+
+## 👨‍💻 Sobre Mim
+
+Olá! Meu nome é **Felipe Roosevelt Duarte** e sou estudante de **Engenharia de Software**.
+Minha maior paixão é o universo dos **games** e da **animação**, áreas que despertam minha criatividade e motivam meu aprendizado em tecnologia. Tenho interesse em desenvolvimento de jogos, design de personagens, mecânicas de gameplay, animação digital e criação de experiências interativas.
+Além da tecnologia, também estudo **inglês** e **piano**, habilidades que contribuem para meu crescimento pessoal e profissional.
+
+---
+
 ## 🎯 Objetivo
 
-Desenvolver habilidades práticas em tecnologia, organização de projetos e trabalho em equipe, acompanhando minha evolução acadêmica e profissional.
+Meu objetivo é construir uma carreira na indústria de jogos e animação, desenvolvendo projetos que unam criatividade, tecnologia e inovação.
+Busco constantemente aprimorar minhas habilidades para atuar futuramente em áreas como:
+
+* Desenvolvimento de Jogos;
+* Game Design;
+* Animação Digital;
+* Modelagem e Criação de Personagens;
+* Programação de Sistemas Interativos;
+* Desenvolvimento de Aplicações Gráficas.
+
 ---
-# 📚 Projetos
-## 🌿 Feira de Ciências Frutos do Cerrado
-Projeto desenvolvido para apresentação científica, com foco em pesquisa, conhecimento ambiental e exposição de temas relacionados ao Cerrado brasileiro.
-### 🔹 Principais atividades
-- Pesquisa científica;
-- Organização de apresentação;
-- Trabalho em equipe;
-- Desenvolvimento de conteúdo educativo.
+
+## 🎮 Áreas de Interesse
+
+### 🕹️ Desenvolvimento de Jogos
+Criação de sistemas, mecânicas, personagens e experiências interativas para diferentes plataformas.
+
+### 🎨 Animação Digital
+Estudo de técnicas de animação, movimentação de personagens e produção de conteúdo visual.
+
+### 🏰 Design de Mundos e Narrativas
+Criação de histórias, universos fictícios, personagens e elementos que tornam os jogos mais imersivos.
+
+### 💻 Programação
+Desenvolvimento de soluções utilizando lógica de programação, algoritmos e boas práticas de software.
+
 ---
-## 💧 Feira de Ciências Água e Sustentabilidade
-Projeto voltado à conscientização sobre o uso sustentável da água e preservação ambiental, realizado no CED 04 de Taguatinga.
-### 🔹 Principais atividades
-- Estudos sobre sustentabilidade;
-- Desenvolvimento de apresentação;
-- Pesquisa sobre preservação ambiental;
-- Participação ativa na organização do projeto.
+
+## 🚀 Habilidades em Desenvolvimento
+
+* Lógica de Programação;
+* Desenvolvimento de Software;
+* Trabalho em Equipe;
+* Organização de Projetos;
+* Resolução de Problemas;
+* Criatividade;
+* Inglês para Tecnologia;
+* Aprendizado Contínuo.
+
 ---
-## 🎭 Peça Teatral "Eles Não Usam Black-Tie"
-Participação em atividades relacionadas à apresentação da obra teatral brasileira de Gianfrancesco Guarnieri.
-### 🔹 Principais atividades
-- Organização da apresentação;
-- Participação teatral;
-- Desenvolvimento cultural e artístico;
-- Trabalho colaborativo.
+
+## 📚 Experiência Acadêmica
+
+Ao longo da minha trajetória escolar participei de projetos científicos, apresentações e atividades colaborativas que contribuíram para o desenvolvimento de habilidades importantes como comunicação, pesquisa, criatividade e trabalho em equipe.
+Essas experiências servem como base para meus futuros projetos na área de games e animação.
+
 ---
-# 🤝 Observação
-Todos os projetos foram desenvolvidos com a colaboração de outras pessoas, contando com apoio coletivo, troca de ideias e atividades realizadas no ambiente escolar.
-Em cada um deles, tive a oportunidade de atuar como responsável e participante ativo no desenvolvimento das atividades.
+
+## 🌟 Objetivo Profissional
+
+Meu sonho é atuar na indústria de jogos e animação, participando da criação de projetos que inspirem pessoas e proporcionem experiências memoráveis.
+Pretendo continuar evoluindo minhas habilidades técnicas e criativas para me tornar um profissional capaz de transformar ideias em projetos inovadores.
+
 ---
-# 👨‍💻 Autor
+
+# 📫 Contato
+
 **Felipe Roosevelt Duarte**
-📍 Estudante de Engenharia de Software
+
+🎓 Estudante de Engenharia de Software
+🎮 Entusiasta de Games e Animação
+📍 Brasília - DF, Brasil
+🚀 Sempre aprendendo, criando e evoluindo.
